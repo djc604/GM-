@@ -44,6 +44,7 @@
     <object>objects\object0</object>
   </objects>
   <rooms name="rooms">
+    <room>rooms\Start</room>
     <room>rooms\USMap</room>
     <room>rooms\Travelling</room>
     <room>rooms\Menu</room>

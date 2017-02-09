@@ -19,11 +19,8 @@
       <sprite>sprites\run_right_spr</sprite>
       <sprite>sprites\shoot_left_spr</sprite>
       <sprite>sprites\shoot_right_spr</sprite>
-<<<<<<< HEAD
-=======
       <sprite>sprites\run_left_front_spr</sprite>
       <sprite>sprites\run_right_front_spr</sprite>
->>>>>>> origin/master
     </sprites>
     <sprites name="gunman">
       <sprite>sprites\Gun_run_left_spr</sprite>
@@ -35,19 +32,16 @@
     <sprite>sprites\spr_city</sprite>
     <sprite>sprites\sprite15</sprite>
     <sprite>sprites\spr_spcity</sprite>
-    <sprite>sprites\sprite20</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\US</background>
-    <background>background\background1</background>
   </backgrounds>
   <paths name="paths"/>
   <scripts name="scripts">
     <script>scripts\script0.gml</script>
   </scripts>
   <objects name="objects">
-    <object>objects\obj_cityicon</object>
-    <object>objects\obj_spstar</object>
+    <object>objects\object0</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\USMap</room>

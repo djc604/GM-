@@ -21,6 +21,8 @@
       <sprite>sprites\shoot_right_spr</sprite>
       <sprite>sprites\run_left_front_spr</sprite>
       <sprite>sprites\run_right_front_spr</sprite>
+      <sprite>sprites\shoot_up_right_spr</sprite>
+      <sprite>sprites\shoot_up_left_spr</sprite>
     </sprites>
     <sprites name="gunman">
       <sprite>sprites\Gun_run_left_spr</sprite>

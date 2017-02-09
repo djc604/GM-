@@ -14,18 +14,20 @@
     <sprite>sprites\Stand_Right_spr</sprite>
     <sprite>sprites\Stand_Left_spr</sprite>
     <sprite>sprites\Stand_Back_spr</sprite>
+    <sprites name="gunman2">
+      <sprite>sprites\run_left_spr</sprite>
+      <sprite>sprites\run_right_spr</sprite>
+      <sprite>sprites\shoot_left_spr</sprite>
+      <sprite>sprites\shoot_right_spr</sprite>
+      <sprite>sprites\run_left_front_spr</sprite>
+      <sprite>sprites\run_right_front_spr</sprite>
+    </sprites>
     <sprites name="gunman">
       <sprite>sprites\Gun_run_left_spr</sprite>
       <sprite>sprites\Gun_run_right_spr</sprite>
       <sprite>sprites\Gun_run_up_spr</sprite>
       <sprite>sprites\Gun_idle_front_spr</sprite>
       <sprite>sprites\Gun_idle_back_spr</sprite>
-      <sprites name="gunman2">
-        <sprite>sprites\run_left_spr</sprite>
-        <sprite>sprites\run_right_spr</sprite>
-        <sprite>sprites\shoot_left_spr</sprite>
-        <sprite>sprites\shoot_right_spr</sprite>
-      </sprites>
     </sprites>
     <sprite>sprites\spr_city</sprite>
     <sprite>sprites\sprite15</sprite>

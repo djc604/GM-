@@ -19,6 +19,11 @@
       <sprite>sprites\run_right_spr</sprite>
       <sprite>sprites\shoot_left_spr</sprite>
       <sprite>sprites\shoot_right_spr</sprite>
+<<<<<<< HEAD
+=======
+      <sprite>sprites\run_left_front_spr</sprite>
+      <sprite>sprites\run_right_front_spr</sprite>
+>>>>>>> origin/master
     </sprites>
     <sprites name="gunman">
       <sprite>sprites\Gun_run_left_spr</sprite>

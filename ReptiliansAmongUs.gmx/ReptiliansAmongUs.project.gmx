@@ -6,6 +6,21 @@
   <NewExtensions/>
   <sounds name="sound"/>
   <sprites name="sprites">
+    <sprites name="States">
+      <sprite>sprites\spr_spec1</sprite>
+      <sprite>sprites\spr_state1</sprite>
+      <sprite>sprites\spr_state2</sprite>
+      <sprite>sprites\spr_state3</sprite>
+      <sprite>sprites\spr_spec2</sprite>
+      <sprite>sprites\spr_state1b</sprite>
+      <sprite>sprites\spr_state2b</sprite>
+      <sprite>sprites\spr_state3b</sprite>
+      <sprite>sprites\spr_spec3</sprite>
+      <sprite>sprites\spr_state1c</sprite>
+      <sprite>sprites\spr_state2c</sprite>
+      <sprite>sprites\spr_state3c</sprite>
+      <sprite>sprites\spr_spec4</sprite>
+    </sprites>
     <sprite>sprites\WalkingFront_spr</sprite>
     <sprite>sprites\Walking_Right_spr</sprite>
     <sprite>sprites\Walking_Left_spr</sprite>
@@ -44,9 +59,23 @@
   </scripts>
   <objects name="objects">
     <object>objects\object0</object>
+    <objects name="States">
+      <object>objects\obj_spec1</object>
+      <object>objects\obj_state1</object>
+      <object>objects\obj_state2</object>
+      <object>objects\obj_state3</object>
+      <object>objects\obj_spec2</object>
+      <object>objects\obj_state1b</object>
+      <object>objects\obj_state2b</object>
+      <object>objects\obj_state3b</object>
+      <object>objects\obj_spec3</object>
+      <object>objects\obj_state1c</object>
+      <object>objects\obj_state2c</object>
+      <object>objects\obj_state3c</object>
+      <object>objects\obj_spec4</object>
+    </objects>
   </objects>
   <rooms name="rooms">
-    <room>rooms\Start</room>
     <room>rooms\USMap</room>
     <room>rooms\Travelling</room>
     <room>rooms\Menu</room>

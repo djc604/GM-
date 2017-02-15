@@ -7,19 +7,24 @@
   <sounds name="sound"/>
   <sprites name="sprites">
     <sprites name="States">
-      <sprite>sprites\spr_spec1</sprite>
-      <sprite>sprites\spr_state1</sprite>
-      <sprite>sprites\spr_state2</sprite>
-      <sprite>sprites\spr_state3</sprite>
-      <sprite>sprites\spr_spec2</sprite>
-      <sprite>sprites\spr_state1b</sprite>
-      <sprite>sprites\spr_state2b</sprite>
-      <sprite>sprites\spr_state3b</sprite>
-      <sprite>sprites\spr_spec3</sprite>
-      <sprite>sprites\spr_state1c</sprite>
-      <sprite>sprites\spr_state2c</sprite>
-      <sprite>sprites\spr_state3c</sprite>
-      <sprite>sprites\spr_spec4</sprite>
+      <sprites name="Closed">
+        <sprite>sprites\spr_spec1</sprite>
+        <sprite>sprites\spr_state1</sprite>
+        <sprite>sprites\spr_state2</sprite>
+        <sprite>sprites\spr_state3</sprite>
+        <sprite>sprites\spr_spec2</sprite>
+        <sprite>sprites\spr_state1b</sprite>
+        <sprite>sprites\spr_state2b</sprite>
+        <sprite>sprites\spr_state3b</sprite>
+        <sprite>sprites\spr_spec3</sprite>
+        <sprite>sprites\spr_state1c</sprite>
+        <sprite>sprites\spr_state2c</sprite>
+        <sprite>sprites\spr_state3c</sprite>
+        <sprite>sprites\spr_spec4</sprite>
+      </sprites>
+      <sprites name="Open">
+        <sprite>sprites\spr_spec1o</sprite>
+      </sprites>
     </sprites>
     <sprite>sprites\WalkingFront_spr</sprite>
     <sprite>sprites\Walking_Right_spr</sprite>

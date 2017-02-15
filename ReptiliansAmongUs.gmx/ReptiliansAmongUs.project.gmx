@@ -54,7 +54,9 @@
   </sprites>
   <backgrounds name="background">
     <background>background\US</background>
-    <background>background\background1</background>
+    <background>background\movingcar</background>
+    <background>background\battle</background>
+    <background>background\gamemenu</background>
   </backgrounds>
   <paths name="paths">
     <path>paths\path0</path>

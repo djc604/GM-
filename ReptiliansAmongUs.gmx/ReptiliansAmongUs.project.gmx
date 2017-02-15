@@ -49,16 +49,34 @@
     <sprite>sprites\spr_city</sprite>
     <sprite>sprites\sprite15</sprite>
     <sprite>sprites\spr_spcity</sprite>
+    <sprite>sprites\spr_back</sprite>
+    <sprite>sprites\spr_menu</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\US</background>
+    <background>background\background1</background>
   </backgrounds>
-  <paths name="paths"/>
+  <paths name="paths">
+    <path>paths\path0</path>
+  </paths>
   <scripts name="scripts">
-    <script>scripts\script0.gml</script>
+    <script>scripts\scr_createstate.gml</script>
+    <script>scripts\scr_stepstate.gml</script>
+    <script>scripts\scr_createoverworld.gml</script>
+    <script>scripts\scr_stepoverworld.gml</script>
+    <script>scripts\scr_stateroomgoto.gml</script>
   </scripts>
+  <fonts name="fonts">
+    <font>fonts\font1</font>
+  </fonts>
   <objects name="objects">
-    <object>objects\object0</object>
+    <objects name="Controllers">
+      <object>objects\contr_overworld</object>
+      <object>objects\cont_travel</object>
+      <object>objects\cont_battle</object>
+      <object>objects\controller</object>
+    </objects>
+    <object>objects\obj_city</object>
     <objects name="States">
       <object>objects\obj_spec1</object>
       <object>objects\obj_state1</object>
@@ -74,11 +92,17 @@
       <object>objects\obj_state3c</object>
       <object>objects\obj_spec4</object>
     </objects>
+    <object>objects\obj_DayCounter</object>
+    <objects name="buttons">
+      <object>objects\obj_overworld</object>
+      <object>objects\obj_menu</object>
+    </objects>
   </objects>
   <rooms name="rooms">
     <room>rooms\USMap</room>
     <room>rooms\Travelling</room>
     <room>rooms\Menu</room>
+    <room>rooms\Battle1</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>

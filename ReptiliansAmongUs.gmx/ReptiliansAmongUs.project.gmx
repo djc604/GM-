@@ -20,6 +20,8 @@
       <sprite>sprites\Gun_run_up_spr</sprite>
       <sprite>sprites\Gun_idle_front_spr</sprite>
       <sprite>sprites\Gun_idle_back_spr</sprite>
+      <sprite>sprites\spr_pistol_left</sprite>
+      <sprite>sprites\spr_pistol_right</sprite>
     </sprites>
     <sprites name="gunman2">
       <sprite>sprites\run_left_spr</sprite>

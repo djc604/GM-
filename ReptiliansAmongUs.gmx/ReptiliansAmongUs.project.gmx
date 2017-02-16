@@ -66,12 +66,16 @@
       <sprite>sprites\spr_girl_shoot_backleft</sprite>
       <sprite>sprites\spr_girl_shoot_backright</sprite>
     </sprites>
+    <sprite>sprites\spr_car</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\US</background>
-    <background>background\movingcar</background>
     <background>background\battle</background>
     <background>background\gamemenu</background>
+    <background>background\bg_road</background>
+    <background>background\bg_trees</background>
+    <background>background\bg_clouds</background>
+    <background>background\bg_water</background>
   </backgrounds>
   <paths name="paths">
     <path>paths\path0</path>
@@ -114,6 +118,8 @@
       <object>objects\obj_overworld</object>
       <object>objects\obj_menu</object>
     </objects>
+    <object>objects\obj_car</object>
+    <objects name="Dialogue"/>
   </objects>
   <rooms name="rooms">
     <room>rooms\USMap</room>

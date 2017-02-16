@@ -58,6 +58,14 @@
         <sprite>sprites\spr_spec1o</sprite>
       </sprites>
     </sprites>
+    <sprites name="gungirl">
+      <sprite>sprites\spr_girl_backrun_left</sprite>
+      <sprite>sprites\spr_girl_backrun_right</sprite>
+      <sprite>sprites\spr_girl_run_left</sprite>
+      <sprite>sprites\spr_girl_run_right</sprite>
+      <sprite>sprites\spr_girl_shoot_backleft</sprite>
+      <sprite>sprites\spr_girl_shoot_backright</sprite>
+    </sprites>
   </sprites>
   <backgrounds name="background">
     <background>background\US</background>
